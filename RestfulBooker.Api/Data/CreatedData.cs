@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace TestingWithNUintFramework.RestfulBooker.Api.Data
+﻿namespace TestingWithNUintFramework.RestfulBooker.Api.Data
 {
-    class CreatedData
+    public class CreatedData
     {
+        public int BookingId { get; set; }
+
+        public Booking Booking { get; set; }
     }
 }
