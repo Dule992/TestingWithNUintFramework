@@ -1,10 +1,11 @@
-﻿using System;
+﻿using Newtonsoft.Json;
 using System.Collections.Generic;
-using System.Text;
 
 namespace TestingWithNUintFramework.RestfulBooker.Api.Data
 {
-    class BookingGroup
+    public class BookingGroup
     {
+        [JsonProperty("bookings")]
+        public List<Booking> Bookings { get; set; }
     }
 }
