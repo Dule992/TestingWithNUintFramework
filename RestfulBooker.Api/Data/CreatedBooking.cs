@@ -1,6 +1,6 @@
 ﻿namespace TestingWithNUintFramework.RestfulBooker.Api.Data
 {
-    public class CreatedData
+    public class CreatedBooking
     {
         public int BookingId { get; set; }
 
